@@ -1,6 +1,6 @@
 /*
  * File:4-puts.c
- * Auth: Bedada Bekele 
+ * Auth: Bedada Bekele <bedada@gmail.com>
  */
 
 #include<stdio.h>
