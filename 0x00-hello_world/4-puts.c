@@ -1,19 +1,18 @@
 /*
  * File: 4-puts.c
-  * Auth: Bedada Bekele <bedada6@gmail.com>
+ * Auth: Bedada B Dursa <bedada6@gmail.com>
  */
-
 
 
 #include <stdio.h>
 
-
- /**
- * main - Prints "Programming is like building a multilingual
- *                 puzzle, followed by a new line.
+/**
+ * main - Prints "programming is like building a multilingual 
+ * 		puzzle,followed by aa new line.
  *
- *  Return: Always 0.
- */
+ * 	Return: Always 0.
+ * 	*/
+ 
 
 int main(void)
 
