@@ -8,9 +8,9 @@
 
 /**
  * main - Prints "programming is like building a multilingual 
- * 		puzzle,followed by aa new line.
+ * 	puzzle,followed by aa new line.
  *
- * 	Return: Always 0.
+ * Return: Always 0.
  */
  
 
