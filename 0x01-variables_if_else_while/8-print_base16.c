@@ -15,9 +15,9 @@ int main(void)
 	int num;
 	char letter;
 
-	for(num=0; num < 10; num ++)
+	for (num = 0; num < 10; num++)
 		putchar(num % 10 + '0');
-	for(letter='A'; letter <= 'E' letter++)
+	for (letter = 'A'; letter <= 'E'; letter++)
 		putchar(letter);
 
 	putchar('\n');
