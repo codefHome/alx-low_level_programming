@@ -15,17 +15,16 @@ int main(void)
 	int num;
 	int num1;
 
-	for(num=0; num < 10; num ++)
+	for(num=0; num <=9; num++)
 	{
-		for(num1=0; num1 < 10;num1++)
-		{
-			putchar((num % 10) + '0');
-			putchar(',');
-			putchar((num1 % 10) + '0');
-			putchar(' ');
-		}
-	}
-	
+		putchar((num % 10) + '0');
+		if(num == 9)
+			continue;
 
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+	
 	return (0);
 }
