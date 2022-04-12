@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 3-islower - check if c is lower case
+ * _islower - check if c is lower case
  * @c: int
  * Return: Always 0(Sucess)
  */
