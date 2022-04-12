@@ -2,13 +2,13 @@
 
 /**
  * print_sign - print a sign of a number.
- * @c: int
+ * @n: int
  * Return: Always 0(Sucess)
  */
 
 int print_sign(int n)
 {
-	if( n > 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
