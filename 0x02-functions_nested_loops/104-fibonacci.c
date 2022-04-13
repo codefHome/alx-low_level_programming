@@ -16,11 +16,11 @@ int main(void)
 	printf(", %.f", num2);
 	for (x = 0; x < 96; x++)
 	{
-			sum = num1 + num2;
-			num1 = num2;
-			num2 = sum;
-			printf(", %.f", sum);
+		sum = num1 + num2;
+		num1 = num2;
+		num2 = sum;
+		printf(", %.f", sum);
 	}
-printf("\n");
-return (0);
+	printf("\n");
+	return (0);
 }
