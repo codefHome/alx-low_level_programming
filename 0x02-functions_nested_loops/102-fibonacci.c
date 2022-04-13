@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	int x = 1;
-	int y = 2;
-	int sum, i;
-
+	unsigned int x = 1;
+	unsigned int y = 2;
+	unsigned int sum, i;
+	printf("%d, %d, ", x, y);
 	for (i = 0; i < 48; i++)
 	{
 		sum = x + y;
