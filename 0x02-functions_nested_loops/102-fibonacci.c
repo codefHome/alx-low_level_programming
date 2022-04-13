@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-	unsigned int x = 1;
-	unsigned int y = 2;
-	unsigned int sum, i;
+	unsigned long int x = 1;
+	unsigned long int y = 2;
+	unsigned long int sum, i;
+
 	printf("%d, %d, ", x, y);
 	for (i = 0; i < 48; i++)
 	{
