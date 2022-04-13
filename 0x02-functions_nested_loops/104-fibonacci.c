@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%.f", num1);
 	printf(", %.f", num2);
-	for (x = 0; x < 96; x++)
+	for (x = 0; x < 92; x++)
 	{
 		sum = num1 + num2;
 		num1 = num2;
