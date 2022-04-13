@@ -7,19 +7,20 @@
  */
 int main(void)
 {
-	int x = 1;
-	int y = 2;
-	int sum, i;
+	int x;
+	double sum = 0;
+	double num1 = 1;
+	double num2 = 2;
 
-	printf("%d, %d, ", x, y);
-	for (i = 0; i <= 98; i++)
+	printf("%.f", num1);
+	printf(", %.f", num2);
+	for (x = 0; x < 96; x++)
 	{
-		sum = x + y;
-		printf("%d, ", sum);
-		x = y;
-		y = sum;
-		
+			sum = num1 + num2;
+			num1 = num2;
+			num2 = sum;
+			printf(", %.f", sum);
 	}
-
-	return (0);
+printf("\n");
+return (0);
 }
