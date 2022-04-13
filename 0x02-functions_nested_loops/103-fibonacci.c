@@ -9,10 +9,10 @@ int main(void)
 {
 	int x = 1;
 	int y = 2;
-	int sum;
+	int sum, i;
 	printf("%d,%d,",x,y);
 
-	for (int i = 0; ; i++)
+	for (i = 0; ; i++)
 	{
 		sum = x + y;
 		if (sum % 2 == 0)
