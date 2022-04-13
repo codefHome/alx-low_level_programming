@@ -24,4 +24,6 @@ int main(void)
 		if (sum > 4000000)
 			break;
 	}
+
+	return (0);
 }
