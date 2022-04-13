@@ -17,7 +17,7 @@ int main(void)
 		sum = x + y;
 		if (sum % 2 == 0)
 		{
-			printf("%d\,",sum);
+			printf("%d,",sum);
 		}
 		x = y;
 		y = sum;
