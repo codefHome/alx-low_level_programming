@@ -11,15 +11,11 @@ int main(void)
 	int y = 2;
 	int sum, i;
 	
-	printf("%d,' '%d,' '", x,y);
-
+	printf("%d, %d, ", x,y);
 	for (i = 0; i <= 98; i++)
 	{
 		sum = x + y;
-		if (sum % 2 == 0)
-		{
-			printf("%d,' '", sum);
-		}
+		printf("%d,' '", sum);
 		x = y;
 		y = sum;
 		
