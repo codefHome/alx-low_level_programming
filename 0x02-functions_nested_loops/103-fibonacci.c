@@ -10,20 +10,22 @@ int main(void)
 	int x = 1;
 	int y = 2;
 	int sum, i;
-	printf("%d,%d,",x,y);
+	int sums = 2;
 
 	for (i = 0; ; i++)
 	{
 		sum = x + y;
 		if (sum % 2 == 0)
 		{
-			printf("%d,",sum);
+			sums = sums + sum;
 		}
 		x = y;
 		y = sum;
 		if (sum > 4000000)
 			break;
 	}
+
+	printf("%d", sums);
 
 	return (0);
 }
