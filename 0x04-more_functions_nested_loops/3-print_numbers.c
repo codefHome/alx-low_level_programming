@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints number from 0 to 9.
- * @d: The first number
+ *
  * Return: 0
  */
 
