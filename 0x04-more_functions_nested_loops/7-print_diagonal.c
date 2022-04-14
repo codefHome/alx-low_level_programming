@@ -2,18 +2,18 @@
 
 /**
  * print_diagonal - prints diagonal.
- * @d: The first number
+ * @n: The first number
  *
  * Return: 0
  */
 
-void print_diagonal(int d)
+void print_diagonal(int n)
 {
 	int len, space;
 
-	if (d > 0)
+	if (n > 0)
 	{
-		for (len = 0; len < d; len++)
+		for (len =0; len < n; len++)
 		{
 			for (space = 0; space < len; space++)
 				_putchar(' ');
@@ -21,8 +21,12 @@ void print_diagonal(int d)
 
 			if (len == n-1)
 				continue;
+
 			_putchar('\n');
+
 		}
 	}
 	_putchar('\n');
+
 }
+
