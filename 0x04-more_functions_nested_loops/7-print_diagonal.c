@@ -3,7 +3,6 @@
 /**
  * print_diagonal - prints diagonal.
  * @n: The first number
- * Return: 0
  */
 
 void print_diagonal(int n)
@@ -12,7 +11,7 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		for (len =0; len < n; len++)
+		for (len = 0; len < n; len++)
 		{
 			for (space = 0; space < len; space++)
 				_putchar(' ');
