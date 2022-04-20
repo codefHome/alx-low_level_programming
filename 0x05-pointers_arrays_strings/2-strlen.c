@@ -5,7 +5,7 @@
  * @x: The string to get the length of
  * Return: int
  */
-size_t _strlen(cost char *x)
+size_t _strlen(const char *x)
 {
 	size_t length = 0;
 
