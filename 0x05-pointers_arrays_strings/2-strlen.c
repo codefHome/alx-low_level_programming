@@ -5,16 +5,15 @@
  * @x: The string to get the length of
  * Return: int
  */
-int _strlen(char *x)
+size_t _strlen(cost *x)
 {
-	int count;
+	size_t length = 0;
 
-	while (*x != '\0')
+	while (*x++)
 	{
-		count++;
-		x++;
+		length++;
 	}
 
-	return (count);
+	return (length);
 }
 
