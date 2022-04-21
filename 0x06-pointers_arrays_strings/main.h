@@ -6,6 +6,7 @@
  * Auth: Bedada Bekele
  * Desc: Header file containing prototypes for all functions
  */
+
 char *_strcat(char *str1,  char *str2);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
@@ -18,4 +19,5 @@ char *rot13(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 int _putchar(char c);
+
 #endif

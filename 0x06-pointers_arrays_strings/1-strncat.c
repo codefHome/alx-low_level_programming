@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+
 /**
  * _strncat- concats 2 strings using n
  * @dest: char
