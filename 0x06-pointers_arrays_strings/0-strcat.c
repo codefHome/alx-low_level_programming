@@ -5,7 +5,7 @@
  * @str1: A pointer to the string 1
  * @str2: The source string
  */
-char *strcat(char *str1, const char *str2)
+char *_strcat(char *str1, const char *str2)
 {
 	int index = 0, str1_len = 0;
 	
