@@ -17,7 +17,7 @@ char *rot13(char *k)
 	while (k[i] != '\0')
 	{
 		for (j = 0; a[j] != '\0' && k[i] != a[j]; j++)
-			;
+
 		if (j < 52)
 		{
 			k[i] = b[j];
