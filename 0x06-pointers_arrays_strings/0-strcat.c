@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  *_ strcat - Concatenates the string 
