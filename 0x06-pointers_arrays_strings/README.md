@@ -1,1 +1,1 @@
-this is project on pointer, array and string
+Pointers arrays and strings project
