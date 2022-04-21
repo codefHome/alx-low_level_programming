@@ -6,6 +6,7 @@
  * Auth: Bedada Bekele
  * Desc: Header file containing prototypes for all functions
  */
+#include <stdlib.h>
 
 char *_strcat(char *str1,  char *str2);
 char *_strncat(char *dest, char *src, int n);
