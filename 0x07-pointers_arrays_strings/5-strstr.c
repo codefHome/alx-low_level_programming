@@ -4,17 +4,16 @@
  * _strstr - find the first occurence
  * @haystack: string
  * @needle: string
+ *
  * Return: the pointer to the first occurence
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	
 	while (*haystack)
 	{
 		char *src = haystack;
 		char *sub = needle;
-		
 		while (*haystack && *sub && *haystack == *sub)
 		{
 			haystack++;
