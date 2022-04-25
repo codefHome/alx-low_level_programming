@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * _strstr - find the first occurence
@@ -7,8 +6,6 @@
  * @needle: string
  * Return: the pointer to the first occurence
  */
-
-#include <stdio.h>
 
 char *_strstr(char *haystack, char *needle)
 {
