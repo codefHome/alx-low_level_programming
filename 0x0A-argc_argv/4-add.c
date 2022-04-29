@@ -1,37 +1,35 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 #include <ctype.h>
+#include "main.h"
 
 /**
- * main - add numbes to each other
- * @argc: number of parameters
- * @argv: names of parameters
- * Return: 0 always
+ * main - adds numbers
+ * @argc: number of arguments
+ * @argv: argument vector of pointers to strings
+ * Return: 0 if no errors, else 1
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int sum = 0;
+	int i, j, sum;
+	sum = 0;
 
-	if (!isdigit(argv[1][2]))
+	if (argc < 1)
+		printf("0\n");
+
+	for (i = 1; i < argc; i++)
 	{
-		printf("%s\n", "Error");
-		return (1);
-	}
-	else if (argc < 2)
-	{
-		printf("%d\n", 0);
-	}
-	else
-	{
-		for (i = 1; i < argc; i++)
+		for (j = 0; argv[i][j]; j++)
 		{
-			sum += atoi(argv[i]);
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		printf("%d\n", sum);
+		sum += atoi(argv[i]);
 	}
-	
+	printf("%d\n", sum);
 	return (0);
 }
