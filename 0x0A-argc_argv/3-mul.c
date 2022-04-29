@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int mul = 0;
+	int mul = 1;
 
 	if (argc > 2)
 	{
@@ -21,6 +21,10 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", mul);
 	}
-	printf("%s\n", "Error");
+	else
+	{
+		return (1);
+		printf("%s\n", "Error");
+	}
 	return (0);
 }
