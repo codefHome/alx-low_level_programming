@@ -7,13 +7,5 @@
  */
 int _strlen(char *x)
 {
-	size_t length = 0;
-
-	while (*x++)
-	{
-		length++;
-	}
-
-	return (length);
 }
 
