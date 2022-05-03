@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * alloc_grid - return pointer to new allocated 2d array
  * @width: int
  * @height: int
  * Return: malloc value
  */
+
 
 int **alloc_grid(int width, int height)
 {
