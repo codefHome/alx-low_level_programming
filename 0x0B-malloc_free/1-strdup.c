@@ -11,7 +11,8 @@
 char *_strdup(char *str)
 {
 	char *str1;
-	int size, i;
+	int size = 0;
+	int i;
 
 	for (i = 0; str[i]; i++)
 		size++;
