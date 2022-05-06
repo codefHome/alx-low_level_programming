@@ -5,12 +5,13 @@
  * string_nconcat - concatenate two string
  * @s1: string 
  * @s2: string
+ * @n: int
  * Return: concatenated string
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char newstr[];
+	char *newstr;
 	int i, j, ii, jj, index;
 
 	if (s1 == NULL)
@@ -29,10 +30,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		newstr[index++] = s1[i];
 	}
-	for (j = 0; j < jj; j++)
+	for (j = 0; j < n; j++)
 	{
 		newstr[index++] = s2[j];
 	}
+	newstr[index++] = '\0';
 return (newstr);
 }
 
