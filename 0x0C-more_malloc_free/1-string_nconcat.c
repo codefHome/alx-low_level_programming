@@ -22,6 +22,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ii++;
 	for (j = 0; s2[j]; j++)
 		jj++;
+	if (jj > n)
+		jj = n;
 
 	newstr = malloc((sizeof(char) * jj) + (sizeof(char) * ii));
 	if (newstr == NULL)
